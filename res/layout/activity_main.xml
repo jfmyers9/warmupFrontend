@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+    
+    <Button android:id="@+id/login_button"
+        android:layout_centerVertical="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/login"
+        android:onClick="loginUser" />
+        
+    <EditText android:id="@+id/password_enter"
+        android:inputType="textPassword"
+        android:layout_above="@id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/password_hint" />
+    
+	<EditText android:id="@+id/username_enter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username_hint"
+        android:layout_above="@id/password_enter" />
+	
+    <TextView android:id="@+id/screen_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/username_enter"
+        android:text="@string/screen_msg_content" />
+      
+    <Button android:id="@+id/add_button"
+        android:layout_below="@id/login_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/add"
+        android:onClick="addUser" />
+</RelativeLayout>

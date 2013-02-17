@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">WarmupProject</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="screen_msg_content">Please enter your credentials below.</string>
+    <string name="username_hint">Username</string>
+    <string name="password_hint">Password</string>
+    <string name="login">Login</string>
+    <string name="add">Add User</string>
+    <string name="title_activity_successful_login">SuccessfulLoginActivity</string>
+    <string name="back_text">Back</string>
+    <string name="logintext">0</string>
+
+</resources>
